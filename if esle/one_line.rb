@@ -1,0 +1,1 @@
+n=gets.chomp.to_i;puts n>0? "Positive": n<0? "Negative" : "Zero"
