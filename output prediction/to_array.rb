@@ -1,0 +1,1 @@
+puts (1..4).to_a.length

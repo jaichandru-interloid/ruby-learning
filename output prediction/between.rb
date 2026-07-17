@@ -1,0 +1,1 @@
+puts 10.between?(1,5)

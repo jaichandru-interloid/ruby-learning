@@ -1,0 +1,1 @@
+puts [3,1,2].sort.first
