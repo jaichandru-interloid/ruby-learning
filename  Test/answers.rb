@@ -344,60 +344,82 @@ end
 p"****************************************************************************"
 
 #Question 24
-# hash={"Arun":45000,"Kumar":62000,"John":38000}
-# high=0
-# low=hash[:Arun]
-# total=0
-# ave=0
-# count=0
-# hash.each do |name,salary|
-#     if salary>high
-#         high=salary
-#         h_name=name
-#     end
-#     if salary <low
-#         low=salary
-#         l_nama=name
-#     end 
-#     total+=salary
-#     count+=1
-# end
-# puts"#{h_name},#{high}"
-# puts"#{l_name},#{low}"
+input="Arun=45000,Kumar=62000,John=38000"
+names=[]
+salaries=[]
+temp=""
+index=0
+i=0
+while i<=input.length
+    if i==input.length || input[i]==","
+        j=0
+        name=""
+        salary=""
+        while j<temp.length
+            if temp[j]=="="
+                j=j+1
+                break
+            end
+            name=name+temp[j]
+            j=j+1
+        end
+
+        while j<temp.length
+            salary=salary+temp[j]
+            j=j+1
+        end
+
+        names[index]=name
+        salaries[index]=salary.to_i
+        index=index+1
+        temp=""
+    else
+        temp=temp+input[i]
+    end
+    i=i+1
+end
+
+highest=salaries[0]
+lowest=salaries[0]
+high_name=names[0]
+low_name=names[0]
+total=0
+
+i=0
+while i<index
+    total=total+salaries[i]
+
+    if salaries[i] > highest
+        highest=salaries[i]
+        high_name=names[i]
+    end
+
+    if salaries[i]<lowest
+        lowest=salaries[i]
+        low_name=names[i]
+    end
+
+    i=i+1
+end
+
+average=total.to_f/index
+puts "Highest: #{high_name} (#{highest})"
+puts "Lowest: #{low_name} (#{lowest})"
+puts "Average: #{'%.2f' % average}"
+
+print "Above Average: "
+first=true
+i=0
+while i<index
+    if salaries[i]>average
+        if !first
+        print ", "
+        end
+        print names[i]
+        first=false
+    end
+    i=i+1
+end
+puts
 p"****************************************************************************"
 
-#Question 25
-# def adding(cart)
-#     print"Enter the Serial number:"
-#     s_no=gets.chomp.to_i
-#     print"Enter the product:"
-#     item=gets.chomp.to_i
-#     print"Enter the price:"
-#     price=gets.chomp.to_float
-#     product={
-#         "s_no"=s_no,
-#         "Item"=item,
-#         "price"=price}
-# cart={}
-# loop do
-#     puts".......MENU......"
-#     puts"1. ADD"
-#     puts"2. DELETE"
-#     puts"3. SHOW"
-#     puts"4. EXIT"
-#     print"Enter your choice:"
-#     choice=gets.chomp.to_i
-#     case choise
-#     when 1
-#         adding(cart)
-#     when 2
-#         delete(cart)
-#     when 3
-#         show(cart)
-#     when 4
-#         puts"Exiting..."
-#         break
-#     else
-#         puts"Invalid input"
-#     end
-# end

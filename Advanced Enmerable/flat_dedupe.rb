@@ -1,0 +1,3 @@
+arr=[[1,2],[2,3],[3,4]]
+new_arr=arr.flatten.uniq
+p new_arr

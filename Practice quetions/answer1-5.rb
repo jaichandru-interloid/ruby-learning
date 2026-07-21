@@ -19,13 +19,13 @@ largest = arr[0]
 second = nil
 i = 1
 while i < arr.length
-  if arr[i] > largest
-    second = largest
-    largest = arr[i]
-  elsif arr[i] != largest && (second == nil || arr[i] > second)
-    second = arr[i]
-  end
-  i += 1
+    if arr[i] > largest
+        second = largest
+        largest = arr[i]
+    elsif arr[i] != largest && (second == nil || arr[i] > second)
+        second = arr[i]
+    end
+    i += 1
 end
 puts "Second largest: #{second}"
 
