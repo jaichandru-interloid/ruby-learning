@@ -12,7 +12,7 @@ end
 
 module Trackable
     def track(action)
-        @histort<< action
+        @history<< action
     end
 end
 
@@ -23,7 +23,7 @@ class Invoice
 	def initialize(number,amount)
 		@detail={number:number,amount:amount}
 		@history=[]
-  end
+    end
 
 	def show_history
 		puts @history
@@ -43,3 +43,19 @@ class Report
         puts @history
 		end
 end
+
+
+invoice = Invoice.new("INV-101", 2500)
+invoice.print_me
+invoice.export("PDF")
+invoice.track("Printed")
+invoice.show_history
+
+puts
+
+report = Report.new("Annual Report", "Alice")
+report.print_me
+report.export("Excel")
+report.track("Shared with Manager")
+report.show_history
+		
