@@ -19,4 +19,5 @@ class Student
 end
 
 student = Student.new("John", "Ruby Programming", "A")
-student.display_all
+md = "display_all"
+student.send(md)
