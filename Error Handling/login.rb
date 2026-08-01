@@ -1,72 +1,72 @@
-class InvalidUserError < StandardError
+class InvalidLoginError < StandardError
+end
+
+class NameExistError < StandardError
 end
 
 class Login
   def initialize
-    # Create file if it does not exist
-    File.write("users.txt", "") unless File.exist?("users.txt")
-    @users = File.readlines("users.txt", chomp: true)
+    @users = eval(File.read("users.txt"))
   end
 
   def validate
-    print "Enter the user name: "
-    uname = gets.chomp
+    print "Enter the username : "
+    uname= gets.chomp
 
-    print "Enter the password: "
+    print "Enter the password : "
     pword = gets.chomp
 
-    user_record = "#{uname},#{pword}"
-
-    if @users.include?(user_record)
-      puts "Logged in successfully!"
+    user_record = {username: uname, password: pword}
+    if @users.include? (user_record)
+      puts "Logged in Successfully"
     else
-      raise InvalidUserError, "Invalid user name or password!"
+      raise InvalidLoginError, "Invalid user name or password!"
     end
   end
 end
 
 class CreateUser < Login
-  def initialize
-    super()
-  end
-
   def create_user
-    print "Enter user name: "
+    print "Enter the username : "
     uname = gets.chomp
 
-    print "Enter password: "
-    pword = gets.chomp
-
-    user_record = "#{uname},#{pword}"
-
-    if @users.include?(user_record)
-      puts "User already exists!"
-    else
-      File.open("users.txt", "a") do |file|
-        file.puts(user_record)
-      end
-      puts "User created successfully!"
+    if @users.any? {|user| user[:username] == uname}
+      raise NameExistError, "User name is already existed "
     end
+    print "Enter the password : "
+    pword = gets.chomp
+    user_record = {username: uname, password: pword}
+    @users << user_record
+    File.write("users.txt", @users.inspect)
+
+    puts "User created successfully...!"
   end
 end
 
-# Menu
+retry_count = 0
+create = CreateUser.new
 begin
-  puts "\n1. Create User"
-  puts "2. Login"
-  print "Choose option: "
-
+  puts "---------Menu---------"
+  puts "1. Sign Up"
+  puts "2. Sign In"
+  print "Enter the choice : "
   choice = gets.chomp.to_i
 
   case choice
   when 1
-    CreateUser.new.create_user
+    create.create_user
   when 2
-    Login.new.validate
+    retry_count += 1
+    create.validate
   else
     puts "Invalid choice"
   end
 
-rescue InvalidUserError => e
+rescue InvalidLoginError => e
   puts e.message
+  retry if retry_count < 3
+    
+rescue NameExistError => e
+  puts e.message
+  retry
 end
