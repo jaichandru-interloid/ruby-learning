@@ -15,8 +15,8 @@ class Student
     roll_no = gets.chomp.to_i
     student_data = {name: s_name, roll_no: roll_no}
     @data << student_data
-    File.open(FILE, "w") do |file|
-      file.write(JSON.pretty_generate(@data))
+    File.open(FILE, "a") do |file|
+      file.write(JSON.pretty_generate(student_data))
     end
   end
 

@@ -1,6 +1,14 @@
 [
-  {
-    "name": "john",
-    "roll_no": 1
-  }
+{
+  "name": "john",
+  "roll_no": 1
+},
+{
+  "name": "jai",
+  "roll_no": 2
+},
+{
+  "name": "JC",
+  "roll_no": 3
+}
 ]

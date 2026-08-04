@@ -1,0 +1,31 @@
+SaleID,Date,Salesperson,Product,Category,Quantity,UnitPrice,Region
+S001,2026-08-01,Alice,Laptop,Electronics,2,650.00,North
+S002,2026-08-01,Bob,Mouse,Accessories,5,20.00,South
+S003,2026-08-02,Carol,Keyboard,Accessories,3,35.00,East
+S004,2026-08-02,David,Monitor,Electronics,2,180.00,West
+S005,2026-08-03,Emma,Printer,Office,1,250.00,North
+S006,2026-08-03,Frank,Desk Chair,Furniture,4,120.00,South
+S007,2026-08-04,Grace,Tablet,Electronics,3,320.00,East
+S008,2026-08-04,Henry,USB Drive,Accessories,10,15.00,West
+S009,2026-08-05,Isabella,Router,Networking,2,90.00,North
+S010,2026-08-05,Jack,Webcam,Accessories,6,45.00,South
+S011,2026-08-06,Alice,Headphones,Accessories,4,60.00,East
+S012,2026-08-06,Bob,Projector,Office,1,500.00,West
+S013,2026-08-07,Carol,Laptop,Electronics,1,700.00,North
+S014,2026-08-07,David,SSD,Storage,5,85.00,South
+S015,2026-08-08,Emma,Scanner,Office,2,210.00,East
+S016,2026-08-08,Frank,Desk,Furniture,2,250.00,West
+S017,2026-08-09,Grace,Keyboard,Accessories,7,30.00,North
+S018,2026-08-09,Henry,Monitor,Electronics,3,190.00,South
+S019,2026-08-10,Isabella,Tablet,Electronics,2,340.00,East
+S020,2026-08-10,Jack,Printer,Office,1,275.00,West
+S021,2026-08-11,Alice,Mouse,Accessories,8,18.00,North
+S022,2026-08-11,Bob,Router,Networking,3,95.00,South
+S023,2026-08-12,Carol,Laptop,Electronics,2,720.00,East
+S024,2026-08-12,David,USB Drive,Accessories,15,12.00,West
+S025,2026-08-13,Emma,Headphones,Accessories,5,65.00,North
+S026,2026-08-13,Frank,Desk Chair,Furniture,3,130.00,South
+S027,2026-08-14,Grace,Projector,Office,1,550.00,East
+S028,2026-08-14,Henry,SSD,Storage,6,90.00,West
+S029,2026-08-15,Isabella,Webcam,Accessories,4,50.00,North
+S030,2026-08-15,Jack,Monitor,Electronics,2,200.00,South

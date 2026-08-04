@@ -1,0 +1,33 @@
+SaleID,Date,Salesperson,Product,Quantity,UnitPrice,Amount
+S001,2026-08-01,Alice,Laptop,2,650.0,1300.0
+S002,2026-08-01,Bob,Mouse,5,20.0,100.0
+S003,2026-08-02,Carol,Keyboard,3,35.0,105.0
+S004,2026-08-02,David,Monitor,2,180.0,360.0
+S005,2026-08-03,Emma,Printer,1,250.0,250.0
+S006,2026-08-03,Frank,Desk Chair,4,120.0,480.0
+S007,2026-08-04,Grace,Tablet,3,320.0,960.0
+S008,2026-08-04,Henry,USB Drive,10,15.0,150.0
+S009,2026-08-05,Isabella,Router,2,90.0,180.0
+S010,2026-08-05,Jack,Webcam,6,45.0,270.0
+S011,2026-08-06,Alice,Headphones,4,60.0,240.0
+S012,2026-08-06,Bob,Projector,1,500.0,500.0
+S013,2026-08-07,Carol,Laptop,1,700.0,700.0
+S014,2026-08-07,David,SSD,5,85.0,425.0
+S015,2026-08-08,Emma,Scanner,2,210.0,420.0
+S016,2026-08-08,Frank,Desk,2,250.0,500.0
+S017,2026-08-09,Grace,Keyboard,7,30.0,210.0
+S018,2026-08-09,Henry,Monitor,3,190.0,570.0
+S019,2026-08-10,Isabella,Tablet,2,340.0,680.0
+S020,2026-08-10,Jack,Printer,1,275.0,275.0
+S021,2026-08-11,Alice,Mouse,8,18.0,144.0
+S022,2026-08-11,Bob,Router,3,95.0,285.0
+S023,2026-08-12,Carol,Laptop,2,720.0,1440.0
+S024,2026-08-12,David,USB Drive,15,12.0,180.0
+S025,2026-08-13,Emma,Headphones,5,65.0,325.0
+S026,2026-08-13,Frank,Desk Chair,3,130.0,390.0
+S027,2026-08-14,Grace,Projector,1,550.0,550.0
+S028,2026-08-14,Henry,SSD,6,90.0,540.0
+S029,2026-08-15,Isabella,Webcam,4,50.0,200.0
+S030,2026-08-15,Jack,Monitor,2,200.0,400.0
+
+Grand Total               ,13129.0
