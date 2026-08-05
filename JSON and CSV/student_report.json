@@ -638,5 +638,325 @@
     "mark3": "86",
     "total": 254,
     "average": 84.67
+  },
+  {
+    "name": "Alice Johnson",
+    "mark1": "78",
+    "mark2": "85",
+    "mark3": "91",
+    "total": 254,
+    "average": 84.67
+  },
+  {
+    "name": "Bob Smith",
+    "mark1": "67",
+    "mark2": "72",
+    "mark3": "70",
+    "total": 209,
+    "average": 69.67
+  },
+  {
+    "name": "Carol Davis",
+    "mark1": "88",
+    "mark2": "90",
+    "mark3": "86",
+    "total": 264,
+    "average": 88.0
+  },
+  {
+    "name": "David Wilson",
+    "mark1": "75",
+    "mark2": "81",
+    "mark3": "79",
+    "total": 235,
+    "average": 78.33
+  },
+  {
+    "name": "Emma Brown",
+    "mark1": "92",
+    "mark2": "94",
+    "mark3": "96",
+    "total": 282,
+    "average": 94.0
+  },
+  {
+    "name": "Frank Miller",
+    "mark1": "61",
+    "mark2": "68",
+    "mark3": "65",
+    "total": 194,
+    "average": 64.67
+  },
+  {
+    "name": "Grace Taylor",
+    "mark1": "84",
+    "mark2": "80",
+    "mark3": "87",
+    "total": 251,
+    "average": 83.67
+  },
+  {
+    "name": "Henry Anderson",
+    "mark1": "73",
+    "mark2": "76",
+    "mark3": "71",
+    "total": 220,
+    "average": 73.33
+  },
+  {
+    "name": "Isabella Thomas",
+    "mark1": "95",
+    "mark2": "93",
+    "mark3": "98",
+    "total": 286,
+    "average": 95.33
+  },
+  {
+    "name": "Jack Moore",
+    "mark1": "69",
+    "mark2": "74",
+    "mark3": "72",
+    "total": 215,
+    "average": 71.67
+  },
+  {
+    "name": "Karen White",
+    "mark1": "82",
+    "mark2": "85",
+    "mark3": "80",
+    "total": 247,
+    "average": 82.33
+  },
+  {
+    "name": "Liam Harris",
+    "mark1": "77",
+    "mark2": "79",
+    "mark3": "83",
+    "total": 239,
+    "average": 79.67
+  },
+  {
+    "name": "Mia Martin",
+    "mark1": "90",
+    "mark2": "88",
+    "mark3": "91",
+    "total": 269,
+    "average": 89.67
+  },
+  {
+    "name": "Noah Clark",
+    "mark1": "64",
+    "mark2": "70",
+    "mark3": "66",
+    "total": 200,
+    "average": 66.67
+  },
+  {
+    "name": "Olivia Lewis",
+    "mark1": "86",
+    "mark2": "89",
+    "mark3": "84",
+    "total": 259,
+    "average": 86.33
+  },
+  {
+    "name": "Peter Walker",
+    "mark1": "71",
+    "mark2": "75",
+    "mark3": "73",
+    "total": 219,
+    "average": 73.0
+  },
+  {
+    "name": "Quinn Hall",
+    "mark1": "93",
+    "mark2": "91",
+    "mark3": "94",
+    "total": 278,
+    "average": 92.67
+  },
+  {
+    "name": "Ryan Allen",
+    "mark1": "68",
+    "mark2": "65",
+    "mark3": "70",
+    "total": 203,
+    "average": 67.67
+  },
+  {
+    "name": "Sophia Young",
+    "mark1": "89",
+    "mark2": "92",
+    "mark3": "90",
+    "total": 271,
+    "average": 90.33
+  },
+  {
+    "name": "Thomas King",
+    "mark1": "74",
+    "mark2": "78",
+    "mark3": "76",
+    "total": 228,
+    "average": 76.0
+  },
+  {
+    "name": "Uma Scott",
+    "mark1": "80",
+    "mark2": "82",
+    "mark3": "81",
+    "total": 243,
+    "average": 81.0
+  },
+  {
+    "name": "Victor Green",
+    "mark1": "66",
+    "mark2": "69",
+    "mark3": "67",
+    "total": 202,
+    "average": 67.33
+  },
+  {
+    "name": "William Baker",
+    "mark1": "85",
+    "mark2": "87",
+    "mark3": "88",
+    "total": 260,
+    "average": 86.67
+  },
+  {
+    "name": "Xavier Adams",
+    "mark1": "72",
+    "mark2": "70",
+    "mark3": "74",
+    "total": 216,
+    "average": 72.0
+  },
+  {
+    "name": "Yara Nelson",
+    "mark1": "91",
+    "mark2": "95",
+    "mark3": "93",
+    "total": 279,
+    "average": 93.0
+  },
+  {
+    "name": "Zach Carter",
+    "mark1": "79",
+    "mark2": "77",
+    "mark3": "80",
+    "total": 236,
+    "average": 78.67
+  },
+  {
+    "name": "Aaron Perez",
+    "mark1": "63",
+    "mark2": "67",
+    "mark3": "69",
+    "total": 199,
+    "average": 66.33
+  },
+  {
+    "name": "Bella Roberts",
+    "mark1": "87",
+    "mark2": "86",
+    "mark3": "89",
+    "total": 262,
+    "average": 87.33
+  },
+  {
+    "name": "Caleb Turner",
+    "mark1": "76",
+    "mark2": "73",
+    "mark3": "78",
+    "total": 227,
+    "average": 75.67
+  },
+  {
+    "name": "Diana Phillips",
+    "mark1": "94",
+    "mark2": "96",
+    "mark3": "95",
+    "total": 285,
+    "average": 95.0
+  },
+  {
+    "name": "Ethan Campbell",
+    "mark1": "70",
+    "mark2": "71",
+    "mark3": "72",
+    "total": 213,
+    "average": 71.0
+  },
+  {
+    "name": "Fiona Parker",
+    "mark1": "83",
+    "mark2": "84",
+    "mark3": "82",
+    "total": 249,
+    "average": 83.0
+  },
+  {
+    "name": "George Evans",
+    "mark1": "65",
+    "mark2": "66",
+    "mark3": "68",
+    "total": 199,
+    "average": 66.33
+  },
+  {
+    "name": "Hannah Edwards",
+    "mark1": "88",
+    "mark2": "90",
+    "mark3": "87",
+    "total": 265,
+    "average": 88.33
+  },
+  {
+    "name": "Ian Collins",
+    "mark1": "74",
+    "mark2": "72",
+    "mark3": "75",
+    "total": 221,
+    "average": 73.67
+  },
+  {
+    "name": "Julia Stewart",
+    "mark1": "97",
+    "mark2": "98",
+    "mark3": "99",
+    "total": 294,
+    "average": 98.0
+  },
+  {
+    "name": "Kevin Sanchez",
+    "mark1": "81",
+    "mark2": "79",
+    "mark3": "80",
+    "total": 240,
+    "average": 80.0
+  },
+  {
+    "name": "Lily Morris",
+    "mark1": "92",
+    "mark2": "90",
+    "mark3": "94",
+    "total": 276,
+    "average": 92.0
+  },
+  {
+    "name": "Mason Rogers",
+    "mark1": "69",
+    "mark2": "68",
+    "mark3": "71",
+    "total": 208,
+    "average": 69.33
+  },
+  {
+    "name": "Nora Reed",
+    "mark1": "85",
+    "mark2": "83",
+    "mark3": "86",
+    "total": 254,
+    "average": 84.67
   }
 ]

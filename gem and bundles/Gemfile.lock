@@ -62,8 +62,10 @@ PLATFORMS
 
 DEPENDENCIES
   colorize (>= 1.1)
+  csv (>= 3.3.6)
   faker (>= 3.8)
   httparty (>= 0.24.2)
+  json (>= 2.21.2)
   pry (>= 0.16.0)
   rubocop (>= 1.89)
 
